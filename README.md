@@ -1,5 +1,5 @@
 # PUI homework
 
-Deployed website: `add the URL to your deployed website`
+Deployed website: `https://lbrandtl.github.io/pui-homework-brandtyrl/`
 
-Repository link: `add the URL to this repository`
+Repository link: `https://github.com/lbrandtl/pui-homework-brandtyrl`
