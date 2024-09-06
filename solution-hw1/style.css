@@ -1,0 +1,166 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+    padding-bottom: 1em;
+}
+
+#header-logo {
+    width: 400px;
+    margin: 10px;
+}
+
+header {
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+a.nav-link {
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-link.active {
+    background: yellow;
+    font-weight: bold;
+}
+
+.product {
+    padding: 0.5em;
+    cursor: pointer;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.product span {
+    margin: 0;
+    display: block;
+    text-wrap: wrap;
+}
+
+.product:hover {
+    background: yellow;
+    font-weight: bold;
+}
+
+.product .price {
+    font-weight: normal;
+}
+
+.product .name {
+    text-decoration: underline;
+}
+
+.product img {
+    width: 400px;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    display: block;
+}
+
+.cart-item img {
+    width: 200px;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    display: block;
+}
+
+#detail-img {
+    width: 600px;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    display: block;
+}
+
+#detail-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#detail-form label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#detail-form select {
+    width: 100%;
+}
+
+#detail-form > div {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+#detail-form > div > button, #checkout-box button {
+    background: yellow;
+    padding: 5px;
+    cursor: pointer;
+}
+
+h3 {
+    max-width: 400px;
+    margin-top: 20px;
+    text-wrap: wrap;
+    text-align: center;
+    font-weight: normal;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.cart-item a {
+    text-decoration: underline;
+}
+
+.cart-item > div {
+    text-align: center;
+    font-weight: normal;
+}
+
+.cart-item > div h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+#checkout-box {
+    border-top: 4px solid black;
+    margin-top: 1em;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#check-box h4 {
+    font-weight: normal;
+}
