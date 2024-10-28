@@ -200,21 +200,19 @@ How would you use Generative AI responsibly?
 
 # **FP1 \- Proposal for Critique**
 
-## Idea Sketches
-
-### *Idea 1*
+## *Idea 1*
 
 ![Personal Portfolio](images/idea1.png)
 
 I want to create a personal portfolio to show off my design projects and creative process and use it for job applications, but also   to have a compilation of my works. I want to make it interactive and fun, with customizable interfaces, such as animations that users can adjust themselves. I want to keep the portfolio accessible by making sure everything’s clear and easy to navigate. Mostly, I want it to show off the different range of projects I’ve done and give a peek into the ideas behind them.
 
-### *Idea 2*
+## *Idea 2*
 
 ![Virtual Pet Simulator](images/idea2.png)
 
 I want to build a virtual pet simulator for a fun experience that users can simply enjoy. I’m plan to make it interactive, where the pet reacts based on what you do with it, showing different moods or actions. I’ll keep it simple and accessible, with visuals that are easy to follow and clear instructions. The main component is just to have a playful experience, taking care of a cute, digital pet you can hang out with.
 
-### *Idea 3*
+## *Idea 3*
 
 ![Personality Test](images/idea3.png)
 
