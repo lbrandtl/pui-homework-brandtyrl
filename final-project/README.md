@@ -125,31 +125,40 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
+Through this project, I aim to create a professional portfolio website that showcases my work and skills, providing potential employers with an accessible way to review my projects and gain insight into my approach and expertise.
 
 ## High-Fi Prototypes
 
 ### *Prototype 1*
 
-![title for prototype1](images/prototype1.png)
+![Personal Portfolio Prototype 1](images/Prototype1.png)
 
-A brief description and summary of the user feedback (\<100 words, 2 images) 
+While users were able to navigate the main page of my website successfully, they felt there was a lack of visual hierarchy and balance, with all content seeming to have the same level of emphasis. Additionally, users suggested that instead of jumping straight into my work, they would prefer an introduction that provides more context about who I am and what I do.
 
 ### *Prototype 2*
 
-…
+![Personal Portfolio Prototype 2](images/Prototype2.png)
+
+Similar to the main page, while users were able to access content on individual project pages, they felt that the layout appeared overly harsh and overwhelming due to its crowded appearance. They suggested a cleaner, more spaced-out design to improve readability and flow.
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+For my usability test, I explained to the participants that I was building a professional portfolio and then asked them to navigate the main page and explore my collection of projects. Everyone was able to perform and complete the task at hand successfully. However, I was still given some very helpful and insightful feedback on how I could improve the design of the portfolio to enhance it for the users further. One of the main suggestions was to create a clearer visual hierarchy so that the important information stands out rather than having everything compete for attention. Users also felt that the layout was too cramped and a bit overwhelming, so I was recommended to have more spacing overall between my contents for easier accessible reading. They also suggested that I add a short biography on the top of my main page to give visitors a sense of who I am before diving into my work.
+I took all of the feedback I received into consideration and refined the design by adjusting features such as the colors and typeface styles in order to make the key details more noticeable and help improve the user’s natural navigational flow when browsing through my portfolio. I focused on the order of information I wanted users to follow through and added these visual elements in order to guide them. I also cleaned up my content to the best of my abilities to avoid the heavy and almost ‘childlike’ feel some users mentioned and aimed for a more clean and professional look. Lastly I added a short introduction of myself at the top, where I feel I could also further experiment with a bit of interactivity to make it more fun and engaging to the users.
 
 ## Updated Designs
 
-Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
+### *Revised Prototype 1*
+
+![Personal Portfolio Revised Prototype 1](images/Revision1.png)
+![Personal Portfolio Revised Prototype 2](images/Revision2.png)
+
+4. Based on the user feedback I received, I updated my design to prioritize visual hierarchy and create a more professional look overall. As a result, I actually prefer the new aesthetic to the previous version; it feels a lot more clean and deliberate for me.
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+The main feedback from the lab was to think more about the interactivity of my portfolio and ways to make it distinctive. I need to brainstorm features that grab attention without distracting from the core purpose of the portfolio. One idea I’m considering is adding an optional background effect that users can trigger. For example, when activated, a gradient could follow the cursor, freezing in place as the new background when they stop. I think something like this would be fun and unique but still aligned with the site’s purpose. I definitely need to find that balance between interactivity and a clean, professional feel.
+I was also encouraged to explore the 'About' section more and look for interactive design elements to make it resonate with users—something beyond just a basic bio. One suggestion was to combine the 'About' with my resume, which could make it more dynamic. The 'About' section does feel plain right now, so I see the potential to make it more engaging. My only concern with combining my resume is making sure it still looks professional for employers. I’m not entirely sure how to balance that yet, but I’ll work on making it a space where people actually enjoy learning about me and my work.
 
 ## Milestones
 
@@ -172,29 +181,10 @@ Outline weekly milestones to plan your expected implementation progress until th
 - [ ] Week 14 Dec 2 \- Dec 6:  
   - [ ] FP4 due 
 
-### *Libraries and Other Components*
-
-List the JS libraries and other components (if applicable) that you plan to use. 
-* 
-
 
 ## Generative AI Use Plan
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
-
-### *Tool Use*
-
- What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
-
-* ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
-* ...
-
-### *Responsible Use*
-
-How would you use Generative AI responsibly? 
+For this project, I think generative AI tools would be especially helpful when I need to understand how a specific library works or when I’m integrating something with an unfamiliar language. AI could definitely come in handy for support with these libraries, especially if there aren’t many resources available online. I use ChatGPT normally when it comes to generative ai tools, and I assume it will be reliable for breaking down libraries and helping me integrate them when needed. To use generative AI responsibly, I just need to make sure I’m using it as a learning aid or support tool rather than relying on it just to give me direct solutions.
 
 ---
 
