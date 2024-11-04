@@ -162,6 +162,8 @@ I was also encouraged to explore the 'About' section more and look for interacti
 
 ## Milestones
 
+My plan for implementation is to get the basics of the portfolio set up first before adding any interactive components. I think this approach will work well, but it means I need to plan carefully and know exactly what I’m doing upfront, so I’ll make sure to do that. Starting with the basics lets me focus on polishing and prioritizing the core content of the portfolio before jumping into the 'fancier' interactive elements.
+
 ### *Implementation Plan*
 
 - [X] Week 9 Oct 28 \- Nov 1:
