@@ -162,8 +162,6 @@ I was also encouraged to explore the 'About' section more and look for interacti
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
-
 ### *Implementation Plan*
 
 - [X] Week 9 Oct 28 \- Nov 1:
