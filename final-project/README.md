@@ -148,12 +148,12 @@ I took all of the feedback I received into consideration and refined the design 
 
 ## Updated Designs
 
-### *Revised Prototype 1*
+### *Revised Prototypes*
 
 ![Personal Portfolio Revised Prototype 1](images/Revision1.png)
 ![Personal Portfolio Revised Prototype 2](images/Revision2.png)
 
-4. Based on the user feedback I received, I updated my design to prioritize visual hierarchy and create a more professional look overall. As a result, I actually prefer the new aesthetic to the previous version; it feels a lot more clean and deliberate for me.
+Based on the user feedback I received, I updated my design to prioritize visual hierarchy and create a more professional look overall. As a result, I actually prefer the new aesthetic to the previous version; it feels a lot more clean and deliberate for me.
 
 ## Feedback Summary
 
@@ -166,20 +166,34 @@ Outline weekly milestones to plan your expected implementation progress until th
 
 ### *Implementation Plan*
 
-- [ ] Week 9 Oct 28 \- Nov 1:
+- [X] Week 9 Oct 28 \- Nov 1:
   - [X] FP1 due
-  - [ ] ...
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
-  - [ ] FP2 due
+  - [X] FP2 due
+  - [ ] Set Up Website Basis
+  - [ ] Create main navigation layout
 
-- [ ] Week 11 Nov 11 \- Nov 15:  
-- [ ] Week 12 Nov 18 \- Nov 22:   
+- [ ] Week 11 Nov 11 \- Nov 15: 
+  - [ ] Finalize Project Information Pages 
+  - [ ] Explore interactive Design Ideas
+  
+  
+- [ ] Week 12 Nov 18 \- Nov 22:
+  - [ ] FP3 due   
+  - [ ] Add User-Interactive Elements
+  - [ ] Refine Navigation
+
 - [ ] Week 13 Nov 25 \- Nov 29:  
-
   - [ ] Thanksgiving  
+  - [ ] Conduct Usability Tests 
+  - [ ] Adjust Based on Feedback
+  
 - [ ] Week 14 Dec 2 \- Dec 6:  
   - [ ] FP4 due 
+  - [ ] Final Refinements
+  - [ ] Final Review
+
 
 
 ## Generative AI Use Plan
