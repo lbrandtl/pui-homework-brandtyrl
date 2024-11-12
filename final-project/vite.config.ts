@@ -4,5 +4,5 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [svelte()],
-  base: "/final-project/dist/"
+  base: "pui-homework-brandtyrl/final-project/dist/"
 })
