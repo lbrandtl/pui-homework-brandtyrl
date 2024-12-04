@@ -1,4 +1,13 @@
+@import url("https://use.typekit.net/alv4ztb.css");
+
+:root {
+  --gray: #1c1c1c;
+  --offwhite: #f7f7f7;
+  --border-radius: 2em;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "neue-haas-grotesk-display", sans-serif;
 }

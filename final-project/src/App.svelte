@@ -1,37 +1,30 @@
 <script lang="ts">
-  import BackgroundFeature from 
-  "./components/BackgroundFeature.svelte"
-  ;
+  import Header from "./components/Header.svelte";
+  import { Router, Route } from "svelte-routing";
+  import Archive from "./routes/Archive.svelte";
+  import About from "./routes/About.svelte";
+  import Footer from "./components/Footer.svelte";
+  import Home from "./routes/Home.svelte";
+  import SoberBeauty from "./routes/work/SoberBeauty.svelte";
+  import CarnegieMellonRacing from "./routes/work/CarnegieMellonRacing.svelte";
 </script>
 
 <main>
-  <div id="landing-hero">
-    <BackgroundFeature />
-    <div id="landing-text">
-      <h1>Brandt YouRan Li</h1>
-    </div>
-  </div>
+  <Router>
+    <Header />
+    <Route path="/" component={Home} />
+    <Route path="/archive" component={Archive} />
+    <Route path="/about" component={About} />
+    <!-- work pages -->
+    <Route path="/work/sober-beauty" component={SoberBeauty} />
+    <Route path="work/cmu-racing" component={CarnegieMellonRacing} />
+    <Footer />
+  </Router>
 </main>
 
 <style>
-  #landing-hero {
-    position: relative;
-  }
-
-  #landing-hero:first-child {
-    position: absolute;
-    top:0;
-  }
-
-  #landing-text {
-    position: absolute;
-    top: 40vh;
-    left: 10vw;
-  }
-
-  #landing-text h1 {
-    font-family: sans-serif;
-    font-size: 5em;
-    font-weight: 900;
+  main {
+    background: var(--gray);
+    min-height: 100vh;
   }
 </style>
