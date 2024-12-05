@@ -32,7 +32,7 @@
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     } else {
-      navigate("/");
+      navigate("");
       tick().then(() => {
         scrollToWork();
       });
@@ -41,7 +41,9 @@
 </script>
 
 <header class={hidden ? "hidden" : ""}>
-  <a id="logo" href="/" use:link>
+  <a id="logo" href="" use:link>
+    <!-- use empty string to navigate to the root. must be empty and not / due to
+    baseURL -->
     <span class="bold">BRANDT</span>
     <span class="normal">YouRan Li</span>
   </a>
@@ -50,10 +52,10 @@
       <a on:click={scrollToWork}>WORK</a>
     </ShakeyWrapper>
     <ShakeyWrapper>
-      <a use:link href="/archive">ARCHIVE</a>
+      <a use:link href="archive">ARCHIVE</a>
     </ShakeyWrapper>
     <ShakeyWrapper>
-      <a use:link href="/about">ABOUT</a>
+      <a use:link href="about">ABOUT</a>
     </ShakeyWrapper>
   </nav>
   <div
@@ -61,6 +63,7 @@
   >
     <ShakeyWrapper
       ><a
+        target="_blank"
         id="eye-candy"
         href="https://drive.google.com/file/d/1iSQjovXQNoHKHpbH18QQjPInCm3Qc1wf/view?usp=sharing"
         >✎</a

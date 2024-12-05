@@ -52,7 +52,7 @@
       </div>
     </Hero>
     <img
-      src="../img/racing_topdown_portrait.png"
+      src="img/racing_topdown_portrait.png"
       alt="sober-beauty"
       draggable="false"
     />
@@ -63,19 +63,19 @@
   />
   <div class="gallery">
     <PolaroidImage
-      src="../img/racing_render.png"
+      src="img/racing_render.png"
       subtitle="Render 1"
       shiftX={50}
       date=""
     />
     <PolaroidImage
-      src="../img/racing_render_front.png"
+      src="img/racing_render_front.png"
       subtitle="Render 2"
       shiftX={50}
       date=""
     />
     <PolaroidImage
-      src="../img/racing_render_ortho.png"
+      src="img/racing_render_ortho.png"
       subtitle="Render 3"
       shiftX={50}
       date=""
@@ -87,19 +87,19 @@
   />
   <div class="gallery">
     <PolaroidImage
-      src="../img/racing_real.png"
+      src="img/racing_real.png"
       subtitle="Shot 1"
       shiftX={50}
       date=""
     />
     <PolaroidImage
-      src="../img/racing_action.png"
+      src="img/racing_action.png"
       subtitle="Shot 2"
       shiftX={50}
       date=""
     />
     <PolaroidImage
-      src="../img/racing_action_front.png"
+      src="img/racing_action_front.png"
       subtitle="Shot 3"
       shiftX={50}
       date=""

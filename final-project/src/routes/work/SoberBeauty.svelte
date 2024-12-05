@@ -50,7 +50,7 @@
         </div>
       </div>
     </Hero>
-    <img src="../img/sober_beauty.png" alt="sober-beauty" draggable="false" />
+    <img src="img/sober_beauty.png" alt="sober-beauty" draggable="false" />
   </div>
   <Blurb
     label="(OVERVIEW)"
@@ -58,17 +58,17 @@
   />
   <div class="gallery">
     <PolaroidImage
-      src="../img/sober_beauty_foundation.png"
+      src="img/sober_beauty_foundation.png"
       subtitle="Foundation"
       date=""
     />
     <PolaroidImage
-      src="../img/sober_beauty_lipstick.png"
+      src="img/sober_beauty_lipstick.png"
       subtitle="Lipstick"
       date=""
     />
     <PolaroidImage
-      src="../img/sober_beauty_lipoil.png"
+      src="img/sober_beauty_lipoil.png"
       subtitle="Lipoil"
       date=""
     />
@@ -79,19 +79,19 @@
   />
   <div class="gallery">
     <PolaroidImage
-      src="../img/sober_beauty_product_packaging.png"
+      src="img/sober_beauty_product_packaging.png"
       subtitle="Product Packaging"
       shiftX={50}
       date=""
     />
     <PolaroidImage
-      src="../img/sober_beauty_lipstick_packaging.png"
+      src="img/sober_beauty_lipstick_packaging.png"
       subtitle="Lipstick Packaging"
       shiftX={50}
       date=""
     />
     <PolaroidImage
-      src="../img/sober_beauty_product_page.png"
+      src="img/sober_beauty_product_page.png"
       subtitle="Product Page"
       shiftX={50}
       date=""

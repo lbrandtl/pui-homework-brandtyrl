@@ -10,16 +10,16 @@
 </script>
 
 <main>
-  <Router>
+  <Router basepath={import.meta.env.BASE_URL}>
     <Header />
     <Route path="/" component={Home} />
-    <Route path="/archive" component={Archive} />
-    <Route path="/about" component={About} />
+    <Route path="archive" component={Archive} />
+    <Route path="about" component={About} />
     <!-- work pages -->
-    <Route path="/work/sober-beauty" component={SoberBeauty} />
+    <Route path="work/sober-beauty" component={SoberBeauty} />
     <Route path="work/cmu-racing" component={CarnegieMellonRacing} />
     <Footer />
-  </Router>
+  </Router>basepath
 </main>
 
 <style>

@@ -21,6 +21,17 @@
   }
 
   function removeListener() {
+    const cursorPosition = get(mousePosition);
+    if (
+      // don't remove listener if cursor is still inside the element
+      cursorPosition.x < cursorMaxX &&
+      cursorPosition.y < cursorMaxY &&
+      cursorPosition.x > cursorMinX &&
+      cursorPosition.y > cursorMinY
+    ) {
+      return;
+    }
+
     inner.style.transition = "transform 500ms ease";
     inner.style.transform = "translate(0px, 0px)";
     inner.removeEventListener("mousemove", moveToMouse);
@@ -54,16 +65,29 @@
     inner.style.transform = `scale(1.25) translate(${dx * 0.7}px, ${dy * 0.7}px) rotate(${angle}rad)`;
   }
 
-  onMount(() => {
-    cursorOrigin = get(mousePosition);
+  function calcBounds() {
+    if (!div) {
+      return;
+    }
 
+    // calculate the bounds of the div every second to make sure it's accurate to the view port
     cursorMaxX = div.getBoundingClientRect().right;
     cursorMaxY = div.getBoundingClientRect().bottom;
     cursorMinX = div.getBoundingClientRect().left;
     cursorMinY = div.getBoundingClientRect().top;
 
+    removeListener(); // in some cases, the listener is not removed, so we do it manually every 1 second.
+  }
+
+  onMount(() => {
+    cursorOrigin = get(mousePosition);
+
+    calcBounds();
+
+    setInterval(calcBounds, 1000);
+
     inner.addEventListener("mouseenter", addListener);
-    inner.addEventListener("mouseleave", removeListener);
+    inner.addEventListener("mouseout", removeListener);
   });
 </script>
 

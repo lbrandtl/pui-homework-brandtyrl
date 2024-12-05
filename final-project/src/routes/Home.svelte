@@ -45,14 +45,14 @@
   </div>
   <ProjectShowcase
     src="img/sober_beauty.png"
-    href="/work/sober-beauty"
+    href="work/sober-beauty"
     title="Sober Beauty 素幸"
     subtext="(Product/UX)"
     description="Designing user experiences for cosmetic products."
   />
   <ProjectShowcase
     src="img/racing_topdown.png"
-    href="/work/cmu-racing"
+    href="work/cmu-racing"
     title="Carnegie Mellon Racing"
     subtext="(Identity System)"
     description="Designing the visual identity for a student-built racecar."

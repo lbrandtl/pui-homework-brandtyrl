@@ -9,7 +9,7 @@
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     } else {
-      navigate("/");
+      navigate("");
       tick().then(() => {
         scrollToWork();
       });
@@ -21,8 +21,8 @@
   <img src={logo} alt="logo" draggable="false" />
   <div>
     <a on:click={scrollToWork} style="cursor: pointer">WORK</a>
-    <a use:link href="/archive">ARCHIVE</a>
-    <a use:link href="/about">ABOUT</a>
+    <a use:link href="archive">ARCHIVE</a>
+    <a use:link href="about">ABOUT</a>
   </div>
   <h6>&#169; Brandt YouRanLi</h6>
 </footer>
