@@ -37,6 +37,11 @@ Another trouble was deploying Svelte onto GitHub. I encountered issues with load
 
 For the 'Shakey Wrapper,' I was initially uncertain about calculating the element's rotational angle to make it respond dynamically to the cursor's position relative to its origin point. To solve this, I turned to GenAI for guidance, which helped me approach the problem with tangent-based calculations. Using these calculations, I created the smooth, responsive rotation effect that tracks the cursor's movement. The resulting angle gives the element a playful and engaging rotation, enhancing its interactivity and overall appeal.
 
+| Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No |
+| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 |
+
 | Tool Name | Ratings | design | plan | write code | debug |
 | ChatGPT | Usage | No | Yes | Yes | No |
 | ChatGPT | Productivity | 4 | 7 | 5 | 4 |
