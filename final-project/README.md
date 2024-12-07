@@ -37,15 +37,24 @@ Another trouble was deploying Svelte onto GitHub. I encountered issues with load
 
 For the 'Shakey Wrapper,' I was initially uncertain about calculating the element's rotational angle to make it respond dynamically to the cursor's position relative to its origin point. To solve this, I turned to GenAI for guidance, which helped me approach the problem with tangent-based calculations. Using these calculations, I created the smooth, responsive rotation effect that tracks the cursor's movement. The resulting angle gives the element a playful and engaging rotation, enhancing its interactivity and overall appeal.
 
-| Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 |
 
-| Tool Name | Ratings | design | plan | write code | debug |
-| ChatGPT | Usage | No | Yes | Yes | No |
-| ChatGPT | Productivity | 4 | 7 | 5 | 4 |
 
+Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
+
+Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+
+### Usage Experiences by Project Aspects
+
+Feel free to edit the column \_ (other?) or add more columns if there's any other aspect in your project you've used the GenAI tools for.
+
+For the following aspects of your project, edit the corresponding table cell to answer:
+- *Usage*: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
+- *Productivity*: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
+
+| Tool Name | Ratings      | design | plan | write code | debug |
+| :-------- | :----------- | :----: | :--: | :--------: | :---: |
+| ChatGPT   | Usage        |   No   |  Yes |    Yes     |  No   |
+| ChatGPT   | Productivity |   4    |   7  |     5      |   4   |
 
 ### Usage Reflection
 
