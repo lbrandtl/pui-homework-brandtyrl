@@ -37,62 +37,12 @@ Another trouble was deploying Svelte onto GitHub. I encountered issues with load
 
 For the 'Shakey Wrapper,' I was initially uncertain about calculating the element's rotational angle to make it respond dynamically to the cursor's position relative to its origin point. To solve this, I turned to GenAI for guidance, which helped me approach the problem with tangent-based calculations. Using these calculations, I created the smooth, responsive rotation effect that tracks the cursor's movement. The resulting angle gives the element a playful and engaging rotation, enhancing its interactivity and overall appeal.
 
-
-
-Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
-
-Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
-
-### Usage Experiences by Project Aspects
-
-Feel free to edit the column \_ (other?) or add more columns if there's any other aspect in your project you've used the GenAI tools for.
-
-For the following aspects of your project, edit the corresponding table cell to answer:
-- *Usage*: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
-- *Productivity*: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
-
 | Tool Name | Ratings      | design | plan | write code | debug |
 | :-------- | :----------- | :----: | :--: | :--------: | :---: |
 | ChatGPT   | Usage        |   No   |  Yes |    Yes     |  No   |
 | ChatGPT   | Productivity |   4    |   7  |     5      |   4   |
 
-### Usage Reflection
-
-> Impact on your design and plan 
-* It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
-* It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
-* GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
-
-> Use patterns
-* I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
-* I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
-
-
-> Pros and cons of using GenAI tools
-* Pros
-  1. Tool1: 
-  2. Tool2:
-* Cons
-  1. Tool1: 
-  2. Tool2:
-
-
-### Usage Log
-
-Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
-
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+ChatGPT aligned well with my expectations and plan in [FP2](#generative-ai-use-plan). It provided valuable support when I needed help integrating elements I wasn’t sure how to approach or use. It was especially helpful in offering solutions to address specific challenges, like with the Shakey Wrapper feature.  That said, ChatGPT didn’t influence my final design or implementation plan. I had already envisioned how the Shakey Wrapper would function before seeking assistance, and I approached ChatGPT to help me execute my pre-planned idea.  I accepted ChatGPT’s suggestions and followed its instructions to achieve the solution I was aiming for. I evaluated its output by testing whether it effectively addressed the problem I presented and functioned as intended.  Pros of using ChatGPT: It’s incredibly helpful when I’m stuck and unsure how to proceed, offering clear, step-by-step explanations that help me understand and learn.  Cons of using ChatGPT: It sometimes provides direct solutions, which can limit opportunities for me to discover and solve problems on my own.
 
 ---
 
@@ -180,7 +130,7 @@ My plan for implementation is to get the basics of the portfolio set up first be
 
 ## Generative AI Use Plan
 
-For this project, I think generative AI tools would be especially helpful when I need to understand how a specific library works or when I’m integrating something with an unfamiliar language. AI could definitely come in handy for support with these libraries, especially if there aren’t many resources available online. I use ChatGPT normally when it comes to generative ai tools, and I assume it will be reliable for breaking down libraries and helping me integrate them when needed. To use generative AI responsibly, I just need to make sure I’m using it as a learning aid or support tool rather than relying on it just to give me direct solutions.
+For this project, I think generative AI tools would be especially helpful when I need to understand how a specific library works or when I’m integrating something with an unfamiliar language. AI could definitely come in handy for support with these libraries, especially if there aren’t many resources available online. I use ChatGPT normally when it comes to generative AI tools, and I assume it will be reliable for breaking down libraries and helping me integrate them when needed. To use generative AI responsibly, I just need to make sure I’m using it as a learning aid or support tool rather than relying on it just to give me direct solutions.
 
 ---
 
