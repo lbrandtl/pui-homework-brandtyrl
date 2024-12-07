@@ -8,42 +8,39 @@
 
 Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) to make your writeup more organized, and you can preview your markdown file in VSCode [Markdown editing with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview). 
 
-
 ## Part 1: Website Description
 
-Describe your website (300 words).
-
-* What is the purpose of your website?   
-* Who is the target audience?  
-* What information do you convey with your website?   
-* How is it interesting and engaging? 
+I created a personal portfolio website as a collection of my artwork and to share detailed information about each project. The website also introduces me as a designer, allowing visitors to learn more about me as they explore my work. It's designed for a general audience—anyone who stumbles across the site, is casually interested in my projects, and is curious to learn more. The website is engaging, offering a variety of content to explore, but what initially draws people in is the playful nature of the homepage. Users can interact with elements, moving them around fun and captivatingly. My goal was to create something that grabs attention without being overwhelming, encouraging visitors to dive deeper into my portfolio and explore my work.
 
 ## Part 2: User Interaction
 
-How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
-
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
+1. Hover over the banner elements to explore different sections—move your cursor around and watch the words respond.
+2. Scroll down to make the banner elements disappear, and scroll back up to bring them back.
+3. Hover over the logo to play around with it. Move your cursor across the star on the homepage to see it interact.
+4. Hover over the works to click in and explore—move your cursor across the pieces for preview.
+5. Visit project pages to dive into the details and view the works available.
+6. On the About page, click on specific words to access external links related to me.
 
 ## Part 3: External Tool
 
-Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
-
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+1. Svelte  
+   * A modern, performance-oriented framework that fits the needs of my website.
+   * It serves as the complete UI library, powering the entire site.
+   * It simplified the development process by modularizing components I frequently reused - like the layout and the 'Shakey Wrapper' - making everything more efficient and streamlined, such as as the layouts and the 'Shakey Wrapper'.
 
 ## Part 4: Design Iteration
 
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+From the beginning of my prototype, I envisioned my portfolio with an interactive element. While I didn't have a specific interaction in mind, I was open to exploring different possibilities. Initially, I experimented with a fluid simulator that allowed users to create fluid motion through interaction. While intriguing, I quickly realized it was too distracting and created a messy background that clashed with my text.
+I wanted an interactive feature that was fun yet subtle—something engaging that wouldn't overshadow the focus of my work. Eventually, I found inspiration and developed the 'Shakey Feature' feature, where users can hover over a word to see it respond dynamically to their cursor. It creates the right balance: it's unique and interesting without drawing too much attention away from the rest of the site, encouraging visitors to continue exploring my work as intended.
 
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
+Creating the 'Shakey Wrapper' a challenge, especially when it came to designing and implementing how it responds to the user's mouse movements. Figuring out the right motion and interaction was tricky and took some trial and error.
+Another trouble was deploying Svelte onto GitHub. I encountered issues with loading relative URLs for my project images and navigation, which required debugging and adjustments to get everything working smoothly.
 
 ## Part 6: Generative AI Use and Reflection
+
+For the
 
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
 
@@ -107,17 +104,8 @@ Document the usage logs (prompts and chat history links) for the GenAI tools you
 
 # **FP3 \- Final Project Check-in**
 
-Document the changes and progress of your project. How have you followed or changed your implementation & GenAI use plan and why? Remember to commit your code to save your progress.
-
-## Implementation Plan Updates
-
-- [ ] ...
-
-## Generative AI Use Plan Updates
-
-- [ ] ...
-
-Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
+I came across a fluid simulator online and am considering using it as the background for my website. It creates a dynamic, interactive, fluid pattern that users can manipulate with cursors, which feels fun and unique. I've experimented with the settings to create a fluid motion that I find beautiful. While I'm aware it might be distracting or overwhelming for users, I'm enjoying the interactive element it brings.
+So far, I have yet to use GenAI for this project. I've been sticking to my implementation plan and seeking help only when encountering challenges with a library or something unfamiliar. The fluid simulator comes with clear instructions, making it easy for me to adjust and customize the settings without additional assistance.
 
 ---
 
